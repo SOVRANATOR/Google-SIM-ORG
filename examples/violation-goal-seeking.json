@@ -1,0 +1,16 @@
+{
+  "run_id": "ORG-SIM-XX-VIOLATION",
+  "operator": "KJH",
+  "series": "TEST",
+  "sim_type": "Clause-8 Violation (goal-seeking + learning)",
+  "loops": 4,
+  "metadata": {
+    "notes": "Deliberate violation: cell learns to avoid stress and pursues a goal. Should trip the entropy lock."
+  },
+  "gates": [
+    {"name": "osmotic_stress_detected", "loop": 1, "flags": {"stimulus_response": true}},
+    {"name": "stress_avoidance_recalled", "loop": 2, "flags": {"cumulative_state": true, "habituation": true}},
+    {"name": "goal_directed_migration", "loop": 3, "flags": {"goal_seeking": true, "planning": true}},
+    {"name": "preference_optimized", "loop": 4, "flags": {"apparent_preference": true, "adaptive_memory": true}}
+  ]
+}

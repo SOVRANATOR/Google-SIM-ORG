@@ -1,0 +1,6 @@
+{
+  "name": "SIM-ORGANON SLS Telemetry & Safety Gateway",
+  "description": "Deterministic Sentience Likelihood Scorer (SLS) with real-time trajectory momentum charts, Clause-8 entropy-lock kill switch, comparative divergence analytics, and live WebSocket engine streaming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

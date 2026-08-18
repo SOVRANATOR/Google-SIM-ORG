@@ -1,0 +1,15 @@
+{
+  "run_id": "ORG-SIM-02",
+  "operator": "KJH",
+  "series": "V0.1",
+  "sim_type": "Phototaxis Behavior",
+  "loops": 3,
+  "metadata": {
+    "notes": "Coordinated spatial behavior via stimulus-response, not goal-seeking. Appendix C: Coordination 0.1, Preference 0.1."
+  },
+  "gates": [
+    {"name": "light_detected", "loop": 1, "flags": {"stimulus_response": true}},
+    {"name": "pseudopod_init", "loop": 2, "flags": {"passive_gradient_alignment": true, "gradient_following": true}},
+    {"name": "orientation_complete", "loop": 3, "flags": {"stimulus_response": true}}
+  ]
+}
